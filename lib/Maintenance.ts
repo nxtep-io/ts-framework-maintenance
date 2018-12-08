@@ -1,10 +1,10 @@
-import { Logger } from 'ts-framework-common';
+import { Logger, LoggerInstance } from 'ts-framework-common';
 import { HttpError, BaseRequest, BaseResponse, HttpCode } from "ts-framework";
 
 export type MaintenanceValue = boolean | (() => boolean) | (() => Promise<boolean>);
 
 export interface MaintenanceOptions {
-  logger?: Logger;
+  logger?: LoggerInstance;
   verbose?: boolean;
 }
 

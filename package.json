@@ -1,6 +1,6 @@
 {
   "name": "ts-framework-maintenance",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A simple maintenance mode for ts-framework",
   "author": "João Brito <joao@nxtep.io>",
   "license": "MIT",
@@ -23,7 +23,7 @@
   "dependencies": {
     "rimraf": "^2.6.2",
     "ts-framework": "nxtep-io/ts-framework#v2.1",
-    "ts-framework-common": "nxtep-io/ts-framework-common#v2",
+    "ts-framework-common": "nxtep-io/ts-framework-common#2.2.0",
     "typescript": "^2.5.3"
   },
   "devDependencies": {
