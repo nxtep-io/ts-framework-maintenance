@@ -1,8 +1,8 @@
-import { Logger } from 'ts-framework-common';
+import { LoggerInstance } from 'ts-framework-common';
 import { BaseRequest, BaseResponse } from "ts-framework";
 export declare type MaintenanceValue = boolean | (() => boolean) | (() => Promise<boolean>);
 export interface MaintenanceOptions {
-    logger?: Logger;
+    logger?: LoggerInstance;
     verbose?: boolean;
 }
 export default class Maintenance {

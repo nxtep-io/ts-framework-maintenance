@@ -1,9 +1,11 @@
-import { Maintenance, MaintenanceValue } from "../lib";
 import * as request from 'supertest';
 import Server from 'ts-framework';
+import { Logger } from "ts-framework-common";
+import { Maintenance } from "../lib";
 
 describe('lib.Server', () => {
   let maintenance;
+  Logger.initialize();
   class TestServer extends Server {
     constructor() {
       super({
